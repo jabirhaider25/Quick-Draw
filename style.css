@@ -20,6 +20,10 @@ canvas
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    width:400;
+    height:400;
+    position:center;
+    position: fixed;
 }
 @keyframes example {
 
@@ -35,4 +39,22 @@ p, span
     font-family: 'Special Elite', fantasy;
     font-size:25px;
     
+  }
+
+  body {
+  background-color: red;
+  }
+
+  h2 
+  {
+  float: left;
+  }
+
+  h3 
+  {
+  float: right;
+  }
+
+  #Sketch {
+  color:red;
   }
